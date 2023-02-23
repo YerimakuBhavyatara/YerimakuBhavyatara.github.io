@@ -733,54 +733,53 @@ h3.hello span
     color: #fff;
     line-height: 25px;
 }
-.contact .contact-form 
+
+.twitter
 {
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-.contact .contact-form .col-6
-{
-    flex: 0 0 50%;
-    max-width: 50%;
+   
+    height: 60px;
+    width: 60px;
+    margin-left: 350px;
 }
 
-.contact .contact-form .col-12
+.ig
 {
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-.contact .contact-form .form-item
-{
-    margin-bottom: 30px;
+   
+    height: 60px;
+    width: 60px;
+    margin-left: 30px;
 }
 
-.contact .contact-form .form-item .form-control
+.lin
 {
-    width: 100%;
-    height: 50px;
-    border-radius: 25px;
-    background: var(--bg-black-100);
-    border: 1px solid var(--bg-black-50);
-    padding: 10px 25px;
-    font-size: 16px;
-    color: var(--text-black-700);
-    transition: all 0.3s ease;
+    
+   height: 60px;
+   width: 60px;
+   margin-left: 30px;
+}
+.github
+{  height: 70px;
+    width: 70px;
+    margin-left: 30px;
 }
 
-.contact .contact-form .form-item .form-control:focus
-{
-    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
-}
 
-.contact .contact-form .form-item textarea.form-control
-{
-    height: 140px;
-}
 
-.contact .contact-form .buttons
+.w1 
 {
-    height: 50px;
-    padding: 0 50px;
+    display: none;
+}
+.w2
+{
+    display: none;
+}
+.w3 
+{
+    display: none;
+}
+.w4 
+{
+    display: none;
 }
 footer
 {   
@@ -806,22 +805,7 @@ footer
 
 @media screen and (max-width:480px)
 {
-   /* .home .home-info
-    .about-section
-    .contact{
-        flex: 0 0 100%;
-        max-width: 100%;
-        padding-left: 50px;
-    }
-    .home .home-img
-    {
-        display:none ;
-    }
-
-    .aside
-    {
-        left: -670px;
-    }*/
+  
 
     .aside{
         width: 0px;
@@ -875,9 +859,6 @@ footer
 }
 .home-img
 {
-    /*flex: 0 0 40%;*/
-   
-    /*padding-left: 20px;*/
     text-align: center;
     position: absolute;
     left: -240px;
@@ -922,8 +903,38 @@ footer
     display: inline;
 }
 
+footer
+{
+    margin-left: -15px;
+    text-align:center;
+}
 
+.twitter
+{
+   
+    height: 40px;
+    width: 40px;
+    margin-left: 60px;
+}
 
+.ig
+{
+   
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+}
 
-
+.lin
+{
+    
+   height: 40px;
+   width: 40px;
+   margin-left: 30px;
+}
+.github
+{  height: 40px;
+    width: 40px;
+    margin-left: 30px;
+}
 }
