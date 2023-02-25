@@ -15,3 +15,12 @@ circles.forEach(elem =>{
         pointsMarked[i].classList.add('marked')
     }
 }) 
+
+
+const listen = document.getElementById('ski');
+listen.addEventListener('click', () => {
+  setTimeout(() => {
+    location.reload();
+  }, 50);
+   
+});
